@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 107, 145);
+
+}
+img{
+
+border-radius: 80px;
+border-color: rgb(12, 107, 145) 
+}
+
+.wrap{
+width: 100vw;
+height: 25vh;
+display: flex;
+align-content: center;
+
+
+background: url(https://img.freepik.com/foto-gratis/telon-fondo-textura-muro-hormigon-solido_53876-129493.jpg?size=626&ext=jpg);
+
+}
+.wrap-texto{
+
+color:#fff;
+text-align: center;
+width: 100%;
+
+}
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none inside;
+}
+ul.slider {
+    position:relative; 
+}
+ul.slider li {
+    opacity: 0; 
+    transition: opacity .5s;
+    position: absolute; 
+    left: 1px;
+    top: 1px;
+    margin:50px;
+    padding:50px;
+    border:3px solid rgb(12, 107, 145);
+    background:rgb(12, 107, 145);
+    align-items: center;
+}
+ul.slider li:first-child {
+    opacity: ; 
+}
+ul.slider li:target {
+    opacity: 1; 
+}
+nav {
+    position:relative;
+    top: 50px;
+    left: 50px;
+}
